@@ -3,10 +3,12 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'KirinWu Blog',
-  description: '一个个人的博客',
+  description: '生活就像海洋，只有意志坚强的人才能到达彼岸。',
+  head: [['link', { rel: 'icon', href: '../assets/logo.ico' }]],
   themeConfig: {
-    logo: '/logo.svg',
-    // https://vitepress.dev/reference/default-theme-config
+    logo: '../assets/logo.ico',
+
+    // 导航栏
     nav: [
       { text: 'Home', link: '/' },
       { text: '生活日记', link: '/life' },
@@ -15,6 +17,7 @@ export default defineConfig({
       { text: '知识库', link: '/knowledge' },
     ],
 
+    // 侧边栏
     sidebar: [
       {
         text: 'Examples',
@@ -29,6 +32,11 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/kirin-wu' }],
     search: {
       provider: 'local',
+    },
+
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2019-2024 Kirin Wu',
     },
   },
   vite: {},

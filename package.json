@@ -10,6 +10,8 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
+    "fast-glob": "^3.3.2",
+    "gray-matter": "^4.0.3",
     "unplugin-auto-import": "^0.18.2",
     "unplugin-vue-components": "^0.27.3"
   }

@@ -41,8 +41,6 @@ features:
     linkText: 编程知识整理
 ---
 
-<ClientOnly><Heatmap /></ClientOnly>
-
 <style>
 .m-home-layout .image-src:hover {
   transform: translate(-50%, -50%) rotate(666turn);

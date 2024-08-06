@@ -1,7 +1,5 @@
 ---
-sort: 1
-title: '旅游攻略'
+sort: 2
+title: '美食分享'
 showArticleMetadata: false
 ---
-
-<ClientOnly><Redirect route="/delicacy"/></ClientOnly>

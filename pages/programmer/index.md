@@ -1,0 +1,3 @@
+---
+showArticleMetadata: false
+---

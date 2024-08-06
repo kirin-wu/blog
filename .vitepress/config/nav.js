@@ -24,6 +24,7 @@ export const nav = [
       { text: '前端', link: '/programmer/front' },
       { text: '后端', link: '/programmer/back' },
       { text: '运维', link: '/programmer/ops' },
+      { text: '网络', link: '/programmer/network' },
     ],
   },
   {
@@ -38,6 +39,7 @@ export const nav = [
       { text: 'Vite', link: '/knowledge/vite' },
       { text: 'Git', link: '/knowledge/git' },
       { text: 'Docker', link: '/knowledge/docker' },
+      { text: 'Markdown', link: '/knowledge/markdown' },
       { text: '问题记录', link: '/knowledge/issue' },
       { text: '优化技巧', link: '/knowledge/optimization' },
     ],

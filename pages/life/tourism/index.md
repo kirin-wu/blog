@@ -1,7 +1,7 @@
 ---
 sort: 1
-title: '美食聚餐'
+title: '旅游攻略'
 showArticleMetadata: false
 ---
 
-<ClientOnly><Redirect route="/tourism"/></ClientOnly>
+<ClientOnly><Redirect route="/drift"/></ClientOnly>

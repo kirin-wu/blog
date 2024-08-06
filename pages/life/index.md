@@ -2,4 +2,4 @@
 showArticleMetadata: false
 ---
 
-<ClientOnly><Redirect route="/life/delicacy"/></ClientOnly>
+<ClientOnly><Redirect route="/tourism"/></ClientOnly>

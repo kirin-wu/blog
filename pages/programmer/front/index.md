@@ -3,5 +3,3 @@ sort: 1
 title: '前端'
 showArticleMetadata: false
 ---
-
-<ClientOnly><Redirect route="/delicacy"/></ClientOnly>

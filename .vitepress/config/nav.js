@@ -15,6 +15,7 @@ export const nav = [
       { text: '在线工具', link: '/tool/online' },
       { text: '软件下载', link: '/tool/software' },
       { text: '实用网站', link: '/tool/website' },
+      { text: 'MacOS', link: '/tool/mac' },
     ],
   },
   {

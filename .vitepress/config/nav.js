@@ -34,6 +34,7 @@ export const nav = [
       { text: 'Vue', link: '/knowledge/vue' },
       { text: 'React', link: '/knowledge/react' },
       { text: 'Node.js', link: '/knowledge/node.js' },
+      { text: 'Nest.js', link: '/knowledge/nest' },
       { text: 'TypeScript', link: '/knowledge/typescript' },
       { text: 'Webpack', link: '/knowledge/webpack' },
       { text: 'Vite', link: '/knowledge/vite' },

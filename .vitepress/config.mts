@@ -27,6 +27,10 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2019-2024 Kirin Wu',
     },
+    outline: {
+      label: '目录', // 自定义右侧目录标题
+      level: [1, 2], // 设置显示目录的标题层级
+    },
   },
   // 路由重写
   rewrites: {

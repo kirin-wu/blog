@@ -1,6 +1,9 @@
 ---
 title: 'React'
-description: 'React'
+showArticleMetadata: true
+sort: 2
+date: 2024-08-15
+description: React
 ---
 
 <ClientOnly><Redirect route="/cra"/></ClientOnly>

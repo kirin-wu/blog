@@ -1,10 +1,11 @@
 ---
-title: 'vue3'
+title: 'vue2'
 description: ''
+sort: 1
 date: 2024-05-02 07:48:42
 tags: ['vue']
 ---
 
 ```
-	vue3
+	vue2
 ```

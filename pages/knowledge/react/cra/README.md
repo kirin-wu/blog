@@ -59,6 +59,16 @@ my-app
 - 检查组件是否在渲染方法中使用了不安全的全局变量。
 - 检查组件是否在渲染方法中使用了不安全的回调函数。
 
+```js
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(
+  // 严格模式
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
+```
+
 ## JSX
 
 JSX 是一种 JavaScript 的语法扩展，目的是快速开发，它允许我们在 JavaScript 代码中直接书写 HTML 标签。JSX 的语法非常类似于 HTML，但是它有一些特殊的语法，如：

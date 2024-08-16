@@ -1,7 +1,7 @@
 ---
 title: 'Vue'
 showArticleMetadata: true
-sort: 1
+sort: 2
 date: 2024-08-15
 description: Vue
 ---

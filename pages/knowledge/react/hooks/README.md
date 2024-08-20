@@ -340,3 +340,33 @@ function TabContainer() {
 
 - 基于 fiber 架构利用浏览器空闲时间 `requestIdleCallback` 这个 api 的思想
 - 因为 requestIdleCallback 这个 api 的兼容性不好，所以用的是 `postMessage` 模拟实现
+
+# useDeferredValue
+
+### 解释
+
+useDeferredValue 是 React 提供的一个 Hook，用于在渲染过程中延迟更新，以便在用户交互期间提供更流畅的体验。
+
+### 参数
+
+`const deferredValue = useDeferredValue(value)`
+
+- `value` 需要延迟更新的值，可以是任何类型
+
+### 用法
+
+```jsx
+import { useState, useDeferredValue } from 'react'
+
+function SearchPage() {
+  const [query, setQuery] = useState('')
+  const deferredQuery = useDeferredValue(query)
+  // ...
+}
+```
+
+### 注意
+
+- 故意减缓了渲染速度
+- 输入框的输入感觉非常卡顿。这是因为没有使用 useDeferredValue，每次按键都会立即强制整个列表以不可中断的方式进行重新渲染。
+- 与防抖或节流不同，useDeferredValue 不需要选择任何固定延迟时间

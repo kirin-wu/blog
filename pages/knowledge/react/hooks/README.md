@@ -370,3 +370,77 @@ function SearchPage() {
 - 故意减缓了渲染速度
 - 输入框的输入感觉非常卡顿。这是因为没有使用 useDeferredValue，每次按键都会立即强制整个列表以不可中断的方式进行重新渲染。
 - 与防抖或节流不同，useDeferredValue 不需要选择任何固定延迟时间
+- useTransition 和 useDeferredValue 的区别在于，useTransition 是一个控制渲染的 Hook，而 useDeferredValue 是一个控制状态更新的 Hook。
+
+# useId `Canary`
+
+### 解释
+
+useId 是 React 提供的一个 Hook，用于生成唯一的 ID，以便在服务器端渲染和客户端渲染之间保持一致性。
+
+### 参数
+
+`const id = useId()`
+
+- 无参数
+
+### 用法
+
+```jsx
+import { useId } from 'react'
+
+function Checkbox() {
+  const id = useId()
+  return (
+    <>
+      <label htmlFor={id}>Do you like React?</label>
+      <input id={id} type='checkbox' />
+    </>
+  )
+}
+```
+
+### 注意
+
+- 在服务器端渲染和客户端渲染之间保持一致性
+- 生成唯一的 ID，避免在客户端渲染时出现重复的 ID
+- 在 React 18 中引入
+
+# useImperativeHandle
+
+### 解释
+
+useImperativeHandle 用于自定义暴露给父组件的方法，不把 dom 实例，只能拿到方法
+
+### 参数
+
+`useImperativeHandle(ref, createHandle, [deps])`
+
+- `ref` 父组件传递的 ref 对象
+- `createHandle` 一个函数，返回一个对象，该对象包含要暴露给父组件的实例值
+- `deps` 依赖数组，当依赖项发生变化时，重新创建 handle
+
+### 用法
+
+```jsx
+import { forwardRef, useImperativeHandle, useRef } from 'react'
+
+const MyInput = forwardRef((props, ref) => {
+  const inputRef = useRef()
+
+  useImperativeHandle(ref, () => ({
+    focus: () => {
+      inputRef.current.focus()
+    },
+  }))
+
+  return <input ref={inputRef} {...props} />
+})
+```
+
+### 注意
+
+- `useImperativeHandle` 应该与 `forwardRef` 一起使用
+- `useImperativeHandle` 只能用于类组件或函数组件的子组件
+- `useImperativeHandle` 不能用于函数组件本身
+- 不希望开发者直接使用 dom 操作，而是暴露一些方法给你使用

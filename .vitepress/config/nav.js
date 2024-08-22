@@ -21,6 +21,7 @@ export const nav = [
       { text: '后端', link: '/programmer/back' },
       { text: '运维', link: '/programmer/ops' },
       { text: '网络', link: '/programmer/network' },
+      { text: '面试题', link: '/programmer/interview-question' },
     ],
   },
   {

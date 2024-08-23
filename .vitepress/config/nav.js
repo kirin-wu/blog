@@ -4,6 +4,7 @@ export const nav = [
     text: '知识库',
     activeMatch: '^/knowledge',
     items: [
+      { text: 'JavaScript', link: '/knowledge/javascript' },
       { text: 'Node', link: '/knowledge/node' },
       { text: 'Vue', link: '/knowledge/vue' },
       { text: 'React', link: '/knowledge/react' },

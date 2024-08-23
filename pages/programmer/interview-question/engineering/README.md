@@ -35,7 +35,7 @@ import { sum } from './sum'
 - 指定目标浏览器
 - 与工具集成 PostCSS、Babel、ESLint 等，以确保生成的代码在指定的浏览器范围内是兼容的
 
-```browserslistrc
+```
  1%
  last 2 versions
  not dead

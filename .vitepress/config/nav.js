@@ -12,6 +12,7 @@ export const nav = [
       { text: 'Next', link: '/knowledge/next' },
       { text: 'Nest', link: '/knowledge/nest' },
       { text: 'Markdown', link: '/knowledge/markdown' },
+      { text: 'TypeScript', link: '/knowledge/typescript' },
     ],
   },
   {

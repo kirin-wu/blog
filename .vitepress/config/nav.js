@@ -20,6 +20,7 @@ export const nav = [
     activeMatch: '^/programmer',
     items: [
       { text: '编程基础', link: '/programmer/basic' },
+      { text: '前端', link: '/programmer/front' },
       { text: '后端', link: '/programmer/back' },
       { text: '运维', link: '/programmer/ops' },
       { text: '网络', link: '/programmer/network' },

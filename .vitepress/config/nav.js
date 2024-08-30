@@ -22,9 +22,7 @@ export const nav = [
       { text: '编程基础', link: '/programmer/basic' },
       { text: '前端', link: '/programmer/front' },
       { text: '后端', link: '/programmer/back' },
-      { text: '运维', link: '/programmer/ops' },
-      { text: '网络', link: '/programmer/network' },
-      { text: '面试题', link: '/programmer/interview-question' },
+      { text: 'Docker', link: '/programmer/docker' },
     ],
   },
   {

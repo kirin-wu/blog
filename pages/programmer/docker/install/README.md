@@ -1,15 +1,14 @@
 ---
-title: '安装运行Docker'
+title: '安装运行'
 showArticleMetadata: true
 sort: 1
 date: 2024-08-30
-description: 安装运行Docker
+description: 安装运行
 ---
 
-# 1.Docker 的安装
+# Docker 的安装
 
 https://docs.docker.com/desktop/install/mac-install/
-安装完成后，运行下面的命令，验证是否安装成功。
 
 ## 验证 Docker 是否安装成功
 
@@ -57,17 +56,24 @@ docker image ls
 docker image rm [imageName]
 ```
 
+## hello-word
+
+```shell
+// 下载 hello-world 镜像
+docker image pull hello-world
+// 查看镜像
+docker image ls
+// 运行镜像
+docker container run hello-world
+// 终止运行的容器
+docker container kill [containID]
+```
+
 ## 可视化工具
 
 ![docker](../docker.png)
 
-# 2.Docker 镜像修改地址
-
-- 打开/etc/default/docker 文件（需要 sudo 权限），在文件的底部加上一行。
-- DOCKER_OPTS="--registry-mirror=https://registry.docker-cn.com"
-- 重启 Docker 服务 sudo service docker restart
-
-# 3.容器文件
+# 容器文件
 
 ## 列出本机正在运行的容器
 
@@ -86,3 +92,9 @@ docker container ls --all
 ```shell
 docker container rm [containerID]
 ```
+
+# Docker 镜像修改地址
+
+- 打开/etc/default/docker 文件（需要 sudo 权限），在文件的底部加上一行。
+- DOCKER_OPTS="--registry-mirror=https://registry.docker-cn.com"
+- 重启 Docker 服务 sudo service docker restart

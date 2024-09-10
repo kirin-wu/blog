@@ -69,6 +69,23 @@ docker container run hello-world
 docker container kill [containID]
 ```
 
+## 示例：安装运行 myqsl
+
+```shell
+# 下载mysql 镜像
+docker pull mysql:5.7
+# 查看镜像
+docker iamges
+# 运行mysql
+docker run -p 3306:3306 --name kirin_mysql -e MYSQL_ROOT_PASSWORD=admin888 -d mysql
+# 查看容器
+docker ps
+# 查看端口
+docker port kirin_mysql
+# 查看ip地址
+docker inspect kirin_mysql | grep "IPAddress"
+```
+
 ## 可视化工具
 
 ![docker](../docker.png)

@@ -23,6 +23,7 @@ export const nav = [
       { text: '前端', link: '/programmer/front' },
       { text: '后端', link: '/programmer/back' },
       { text: 'Docker', link: '/programmer/docker' },
+      { text: 'MySQL', link: '/programmer/mysql' },
     ],
   },
   {

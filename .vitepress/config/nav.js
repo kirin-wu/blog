@@ -42,6 +42,7 @@ export const nav = [
       { text: '软件下载', link: '/tool/software' },
       { text: '实用网站', link: '/tool/website' },
       { text: 'MacOS', link: '/tool/mac' },
+      { text: 'Vim', link: '/tool/vim' },
     ],
   },
 ]

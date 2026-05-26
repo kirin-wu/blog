@@ -7,12 +7,13 @@ export const sidebar = {
   '/life': getItemsByCategory('pages/life'),
   '/tool': getItemsByCategory('pages/tool'),
   '/programmer': getItemsByCategory('pages/programmer'),
-  '/knowledge': getItemsByCategory('pages/knowledge'),
+  '/knowledge': getItemsByCategory('pages/knowledge', ['frontend', 'backend', 'ai', 'devops']),
+  '/project': getItemsByCategory('pages/project'),
 }
 
 // 根据 pages/分类/细分类/标题/README.md的目录格式, 获取侧边栏分组及分组下标题
 // 组成路由 => /分类/细分类/标题
-function getItemsByCategory(path) {
+function getItemsByCategory(path, includeGroups = null) {
   // 侧边栏分组数组
   let groups = []
   // 侧边栏分组下标题数组
@@ -37,6 +38,9 @@ function getItemsByCategory(path) {
     })
     .forEach(({ name }) => {
       let group = name
+      if (Array.isArray(includeGroups) && includeGroups.length > 0 && !includeGroups.includes(group)) {
+        return
+      }
 
       // 获取章节标题
       let chapter = ''

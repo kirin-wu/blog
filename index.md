@@ -19,26 +19,26 @@ hero:
       link: https://github.com/kirin-wu/blog
 
 features:
-  - title: 生活日记
-    details: 记录日常生活中的点滴和心情，通过图文并茂的方式展示旅行、日常生活和心情记录。
-    icon:
-      src: /life.svg
-    link: /life
-    linkText: 生活旅游分享
-
-  - title: 工具分享
-    details: 生活和工作工具分享模块致力于推荐和评测各类实用工具，从生产力软件到健康管理应用，提供详细的功能介绍、优缺点分析和使用教程。
-    icon:
-      src: /tool.svg
-    link: /tool
-    linkText: 实用工具分享
-
   - title: 知识库
-    details: 整理和分享知识的平台，涵盖各类主题，如编程、阅读笔记和科学知识。
+    details: 按前端、后端、AI、运维四大分类整理技术内容，沉淀可复用的学习与实战经验。
     icon:
       src: /zhishi.svg
     link: /knowledge
-    linkText: 编程知识整理
+    linkText: 进入知识库
+
+  - title: 项目实战
+    details: 聚焦项目复盘、踩坑记录、性能优化与架构演进，强调真实场景下的问题与方案。
+    icon:
+      src: /tool.svg
+    link: /project
+    linkText: 查看实战专题
+
+  - title: 工具资源
+    details: 汇总日常开发高频使用的在线工具、软件与实用网站，提升学习与开发效率。
+    icon:
+      src: /life.svg
+    link: /tool
+    linkText: 浏览工具资源
 ---
 
 <style>

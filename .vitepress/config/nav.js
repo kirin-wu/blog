@@ -4,38 +4,24 @@ export const nav = [
     text: '知识库',
     activeMatch: '^/knowledge',
     items: [
-      { text: 'JavaScript', link: '/knowledge/javascript' },
-      { text: 'Node', link: '/knowledge/node' },
-      { text: 'Vue', link: '/knowledge/vue' },
-      { text: 'React', link: '/knowledge/react' },
-      { text: 'Nuxt', link: '/knowledge/nuxt' },
-      { text: 'Next', link: '/knowledge/next' },
-      { text: 'Nest', link: '/knowledge/nest' },
-      { text: 'Markdown', link: '/knowledge/markdown' },
-      { text: 'TypeScript', link: '/knowledge/typescript' },
+      { text: '前端', link: '/knowledge/frontend' },
+      { text: '后端', link: '/knowledge/backend' },
+      { text: 'AI', link: '/knowledge/ai' },
+      { text: '运维', link: '/knowledge/devops' },
     ],
   },
   {
-    text: '程序员客栈',
-    activeMatch: '^/programmer',
+    text: '项目实战',
+    activeMatch: '^/project',
     items: [
-      { text: '编程基础', link: '/programmer/basic' },
-      { text: '前端', link: '/programmer/front' },
-      { text: '后端', link: '/programmer/back' },
-      { text: 'Docker', link: '/programmer/docker' },
-      { text: 'MySQL', link: '/programmer/mysql' },
+      { text: '项目复盘', link: '/project/retrospective' },
+      { text: '踩坑记录', link: '/project/pitfalls' },
+      { text: '性能优化', link: '/project/performance' },
+      { text: '架构演进', link: '/project/architecture' },
     ],
   },
   {
-    text: '生活日记',
-    activeMatch: '^/life',
-    items: [
-      { text: '旅游攻略', link: '/life/tourism' },
-      { text: '美食聚餐', link: '/life/delicacy' },
-    ],
-  },
-  {
-    text: '工具分享',
+    text: '工具资源',
     activeMatch: '^/tool',
     items: [
       { text: '在线工具', link: '/tool/online' },
@@ -44,5 +30,18 @@ export const nav = [
       { text: 'MacOS', link: '/tool/mac' },
       { text: 'Vim', link: '/tool/vim' },
     ],
+  },
+  {
+    text: '生活随笔',
+    activeMatch: '^/life',
+    items: [
+      { text: '旅游攻略', link: '/life/tourism' },
+      { text: '美食聚餐', link: '/life/delicacy' },
+    ],
+  },
+  {
+    text: '关于',
+    activeMatch: '^/about',
+    link: '/about',
   },
 ]

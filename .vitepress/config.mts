@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 import { nav } from './config/nav'
 import { sidebar } from './config/sidebar'
 
+const currentYear = new Date().getFullYear()
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'KirinWu Blog',
@@ -25,7 +27,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-2024 Kirin Wu',
+      copyright: `Copyright © 2019-${currentYear} Kirin Wu`,
     },
     outline: {
       label: '目录', // 自定义右侧目录标题

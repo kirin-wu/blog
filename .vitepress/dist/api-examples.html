@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Runtime API Examples | KirinWu Blog</title>
     <meta name="description" content="生活就像海洋，只有意志坚强的人才能到达彼岸。">
-    <meta name="generator" content="VitePress v1.3.1">
-    <link rel="preload stylesheet" href="/assets/style.qeTtgoLW.css" as="style">
+    <meta name="generator" content="VitePress v1.3.2">
+    <link rel="preload stylesheet" href="/assets/style.eDNyKaqp.css" as="style">
     
-    <script type="module" src="/assets/app.DJngW_z5.js"></script>
+    <script type="module" src="/assets/app.DJVIUWwo.js"></script>
     <link rel="preload" href="/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
-    <link rel="modulepreload" href="/assets/chunks/framework.aEgwVdO5.js">
-    <link rel="modulepreload" href="/assets/chunks/theme.DJ_qccXe.js">
-    <link rel="modulepreload" href="/assets/api-examples.md.Dj2Y_IoQ.lean.js">
-    <link rel="icon" href="../assets/logo.ico">
+    <link rel="modulepreload" href="/assets/chunks/theme.DR5RKP2b.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CyBENvPl.js">
+    <link rel="modulepreload" href="/assets/api-examples.md.DVvFybkd.lean.js">
+    <link rel="icon" href="/logo.ico">
     <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
     <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
   </head>
   <body>
-    <div id="app"><div class="Layout" data-v-ef0a394c><!--[--><!--]--><!--[--><span tabindex="-1" data-v-84977b48></span><a href="#VPContent" class="VPSkipLink visually-hidden" data-v-84977b48> Skip to content </a><!--]--><!----><header class="VPNav" data-v-ef0a394c data-v-70984414><div class="VPNavBar has-sidebar top" data-v-70984414 data-v-b17f1166><div class="wrapper" data-v-b17f1166><div class="container" data-v-b17f1166><div class="title" data-v-b17f1166><div class="VPNavBarTitle has-sidebar" data-v-b17f1166 data-v-2aa65ab9><a class="title" href="/" data-v-2aa65ab9><!--[--><!--]--><!--[--><img class="VPImage logo" src="../assets/logo.ico" alt data-v-77f5ba2b><!--]--><span data-v-2aa65ab9>KirinWu Blog</span><!--[--><!--]--></a></div></div><div class="content" data-v-b17f1166><div class="content-body" data-v-b17f1166><!--[--><!--]--><div class="VPNavBarSearch search" data-v-b17f1166><!--[--><!----><div id="local-search"><button type="button" class="DocSearch DocSearch-Button" aria-label="Search"><span class="DocSearch-Button-Container"><span class="vp-icon DocSearch-Search-Icon"></span><span class="DocSearch-Button-Placeholder">Search</span></span><span class="DocSearch-Button-Keys"><kbd class="DocSearch-Button-Key"></kbd><kbd class="DocSearch-Button-Key">K</kbd></span></button></div><!--]--></div><nav aria-labelledby="main-nav-aria-label" class="VPNavBarMenu menu" data-v-b17f1166 data-v-90601090><span id="main-nav-aria-label" class="visually-hidden" data-v-90601090> Main Navigation </span><!--[--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/" tabindex="0" data-v-90601090 data-v-18ad893c><!--[--><span data-v-18ad893c>Home</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/life.html" tabindex="0" data-v-90601090 data-v-18ad893c><!--[--><span data-v-18ad893c>生活日记</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/tool.html" tabindex="0" data-v-90601090 data-v-18ad893c><!--[--><span data-v-18ad893c>工具分享</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/programmer.html" tabindex="0" data-v-90601090 data-v-18ad893c><!--[--><span data-v-18ad893c>程序员客栈</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/knowledge.html" tabindex="0" data-v-90601090 data-v-18ad893c><!--[--><span data-v-18ad893c>知识库</span><!--]--></a><!--]--><!--]--></nav><!----><div class="VPNavBarAppearance appearance" data-v-b17f1166 data-v-9ccc192d><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch to dark theme" aria-checked="false" data-v-9ccc192d data-v-c8164118 data-v-ba09379e><span class="check" data-v-ba09379e><span class="icon" data-v-ba09379e><!--[--><span class="vpi-sun sun" data-v-c8164118></span><span class="vpi-moon moon" data-v-c8164118></span><!--]--></span></span></button></div><div class="VPSocialLinks VPNavBarSocialLinks social-links" data-v-b17f1166 data-v-1773bea1 data-v-2c0ebff7><!--[--><a class="VPSocialLink no-icon" href="https://github.com/kirin-wu" aria-label="github" target="_blank" rel="noopener" data-v-2c0ebff7 data-v-f4c85444><span class="vpi-social-github" /></a><!--]--></div><div class="VPFlyout VPNavBarExtra extra" data-v-b17f1166 data-v-0141acde data-v-2dc468a3><button type="button" class="button" aria-haspopup="true" aria-expanded="false" aria-label="extra navigation" data-v-2dc468a3><span class="vpi-more-horizontal icon" data-v-2dc468a3></span></button><div class="menu" data-v-2dc468a3><div class="VPMenu" data-v-2dc468a3 data-v-1051131d><!----><!--[--><!--[--><!----><div class="group" data-v-0141acde><div class="item appearance" data-v-0141acde><p class="label" data-v-0141acde>Appearance</p><div class="appearance-action" data-v-0141acde><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch to dark theme" aria-checked="false" data-v-0141acde data-v-c8164118 data-v-ba09379e><span class="check" data-v-ba09379e><span class="icon" data-v-ba09379e><!--[--><span class="vpi-sun sun" data-v-c8164118></span><span class="vpi-moon moon" data-v-c8164118></span><!--]--></span></span></button></div></div></div><div class="group" data-v-0141acde><div class="item social-links" data-v-0141acde><div class="VPSocialLinks social-links-list" data-v-0141acde data-v-2c0ebff7><!--[--><a class="VPSocialLink no-icon" href="https://github.com/kirin-wu" aria-label="github" target="_blank" rel="noopener" data-v-2c0ebff7 data-v-f4c85444><span class="vpi-social-github" /></a><!--]--></div></div></div><!--]--><!--]--></div></div></div><!--[--><!--]--><button type="button" class="VPNavBarHamburger hamburger" aria-label="mobile navigation" aria-expanded="false" aria-controls="VPNavScreen" data-v-b17f1166 data-v-340ebf84><span class="container" data-v-340ebf84><span class="top" data-v-340ebf84></span><span class="middle" data-v-340ebf84></span><span class="bottom" data-v-340ebf84></span></span></button></div></div></div></div><div class="divider" data-v-b17f1166><div class="divider-line" data-v-b17f1166></div></div></div><!----></header><div class="VPLocalNav has-sidebar empty" data-v-ef0a394c data-v-7a9247a3><div class="container" data-v-7a9247a3><button class="menu" aria-expanded="false" aria-controls="VPSidebarNav" data-v-7a9247a3><span class="vpi-align-left menu-icon" data-v-7a9247a3></span><span class="menu-text" data-v-7a9247a3>Menu</span></button><div class="VPLocalNavOutlineDropdown" style="--vp-vh:0px;" data-v-7a9247a3 data-v-484cd833><button data-v-484cd833>Return to top</button><!----></div></div></div><aside class="VPSidebar" data-v-ef0a394c data-v-c21887f4><div class="curtain" data-v-c21887f4></div><nav class="nav" id="VPSidebarNav" aria-labelledby="sidebar-aria-label" tabindex="-1" data-v-c21887f4><span class="visually-hidden" id="sidebar-aria-label" data-v-c21887f4> Sidebar Navigation </span><!--[--><!--]--><!--[--><div class="no-transition group" data-v-4a141333><section class="VPSidebarItem level-0 has-active" data-v-4a141333 data-v-362eb4f0><div class="item" role="button" tabindex="0" data-v-362eb4f0><div class="indicator" data-v-362eb4f0></div><h2 class="text" data-v-362eb4f0>Examples</h2><!----></div><div class="items" data-v-362eb4f0><!--[--><div class="VPSidebarItem level-1 is-link" data-v-362eb4f0 data-v-362eb4f0><div class="item" data-v-362eb4f0><div class="indicator" data-v-362eb4f0></div><a class="VPLink link link" href="/life.html" data-v-362eb4f0><!--[--><p class="text" data-v-362eb4f0>Markdown Examples</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-362eb4f0 data-v-362eb4f0><div class="item" data-v-362eb4f0><div class="indicator" data-v-362eb4f0></div><a class="VPLink link link" href="/api-examples.html" data-v-362eb4f0><!--[--><p class="text" data-v-362eb4f0>Runtime API Examples</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-362eb4f0 data-v-362eb4f0><div class="item" data-v-362eb4f0><div class="indicator" data-v-362eb4f0></div><a class="VPLink link link" href="/knowledge-base.html" data-v-362eb4f0><!--[--><p class="text" data-v-362eb4f0>知识库</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><!--]--><!--[--><!--]--></nav></aside><div class="VPContent has-sidebar" id="VPContent" data-v-ef0a394c data-v-da75e100><div class="VPDoc has-sidebar has-aside" data-v-da75e100 data-v-6fb61154><!--[--><!--]--><div class="container" data-v-6fb61154><div class="aside" data-v-6fb61154><div class="aside-curtain" data-v-6fb61154></div><div class="aside-container" data-v-6fb61154><div class="aside-content" data-v-6fb61154><div class="VPDocAside" data-v-6fb61154 data-v-958eec52><!--[--><!--]--><!--[--><!--]--><nav aria-labelledby="doc-outline-aria-label" class="VPDocAsideOutline" data-v-958eec52 data-v-0ecacc66><div class="content" data-v-0ecacc66><div class="outline-marker" data-v-0ecacc66></div><div aria-level="2" class="outline-title" id="doc-outline-aria-label" role="heading" data-v-0ecacc66>On this page</div><ul class="VPDocOutlineItem root" data-v-0ecacc66 data-v-b4ce2aa1><!--[--><!--]--></ul></div></nav><!--[--><!--]--><div class="spacer" data-v-958eec52></div><!--[--><!--]--><!----><!--[--><!--]--><!--[--><!--]--></div></div></div></div><div class="content" data-v-6fb61154><div class="content-container" data-v-6fb61154><!--[--><!--]--><main class="main" data-v-6fb61154><div style="position:relative;" class="vp-doc _api-examples" data-v-6fb61154><div><h1 id="runtime-api-examples" tabindex="-1">Runtime API Examples <a class="header-anchor" href="#runtime-api-examples" aria-label="Permalink to &quot;Runtime API Examples&quot;">​</a></h1><p>This page demonstrates usage of some of the runtime APIs provided by VitePress.</p><p>The main <code>useData()</code> API can be used to access site, theme, and page data for the current page. It works in both <code>.md</code> and <code>.vue</code> files:</p><div class="language-md vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">md</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">script</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> setup</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
+    <div id="app"><div class="Layout" data-v-d8b57b2d><!--[--><!--]--><!--[--><span tabindex="-1" data-v-c8291ffa></span><a href="#VPContent" class="VPSkipLink visually-hidden" data-v-c8291ffa> Skip to content </a><!--]--><!----><header class="VPNav" data-v-d8b57b2d data-v-7ad780c2><div class="VPNavBar top" data-v-7ad780c2 data-v-9fd4d1dd><div class="wrapper" data-v-9fd4d1dd><div class="container" data-v-9fd4d1dd><div class="title" data-v-9fd4d1dd><div class="VPNavBarTitle" data-v-9fd4d1dd data-v-0ad69264><a class="title" href="/" data-v-0ad69264><!--[--><!--]--><!--[--><img class="VPImage logo" src="/logo.ico" alt data-v-ab19afbb><!--]--><span data-v-0ad69264>KirinWu Blog</span><!--[--><!--]--></a></div></div><div class="content" data-v-9fd4d1dd><div class="content-body" data-v-9fd4d1dd><!--[--><!--]--><div class="VPNavBarSearch search" data-v-9fd4d1dd><!--[--><!----><div id="local-search"><button type="button" class="DocSearch DocSearch-Button" aria-label="Search"><span class="DocSearch-Button-Container"><span class="vp-icon DocSearch-Search-Icon"></span><span class="DocSearch-Button-Placeholder">Search</span></span><span class="DocSearch-Button-Keys"><kbd class="DocSearch-Button-Key"></kbd><kbd class="DocSearch-Button-Key">K</kbd></span></button></div><!--]--></div><nav aria-labelledby="main-nav-aria-label" class="VPNavBarMenu menu" data-v-9fd4d1dd data-v-afb2845e><span id="main-nav-aria-label" class="visually-hidden" data-v-afb2845e> Main Navigation </span><!--[--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/" tabindex="0" data-v-afb2845e data-v-08fbf4b6><!--[--><span data-v-08fbf4b6>Home</span><!--]--></a><!--]--><!--[--><div class="VPFlyout VPNavBarMenuGroup" data-v-afb2845e data-v-af5898d3><button type="button" class="button" aria-haspopup="true" aria-expanded="false" data-v-af5898d3><span class="text" data-v-af5898d3><!----><span data-v-af5898d3>知识库</span><span class="vpi-chevron-down text-icon" data-v-af5898d3></span></span></button><div class="menu" data-v-af5898d3><div class="VPMenu" data-v-af5898d3 data-v-20ed86d6><div class="items" data-v-20ed86d6><!--[--><!--[--><div class="VPMenuLink" data-v-20ed86d6 data-v-f51f088d><a class="VPLink link" href="/knowledge/frontend" data-v-f51f088d><!--[-->前端<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-20ed86d6 data-v-f51f088d><a class="VPLink link" href="/knowledge/backend" data-v-f51f088d><!--[-->后端<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-20ed86d6 data-v-f51f088d><a class="VPLink link" href="/knowledge/ai" data-v-f51f088d><!--[-->AI<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-20ed86d6 data-v-f51f088d><a class="VPLink link" href="/knowledge/devops" data-v-f51f088d><!--[-->运维<!--]--></a></div><!--]--><!--]--></div><!--[--><!--]--></div></div></div><!--]--><!--[--><div class="VPFlyout VPNavBarMenuGroup" data-v-afb2845e data-v-af5898d3><button type="button" class="button" aria-haspopup="true" aria-expanded="false" data-v-af5898d3><span class="text" data-v-af5898d3><!----><span data-v-af5898d3>项目实战</span><span class="vpi-chevron-down text-icon" data-v-af5898d3></span></span></button><div class="menu" data-v-af5898d3><div class="VPMenu" data-v-af5898d3 data-v-20ed86d6><div class="items" data-v-20ed86d6><!--[--><!--[--><div class="VPMenuLink" data-v-20ed86d6 data-v-f51f088d><a class="VPLink link" href="/project/retrospective" data-v-f51f088d><!--[-->项目复盘<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-20ed86d6 data-v-f51f088d><a class="VPLink link" href="/project/pitfalls" data-v-f51f088d><!--[-->踩坑记录<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-20ed86d6 data-v-f51f088d><a class="VPLink link" href="/project/performance" data-v-f51f088d><!--[-->性能优化<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-20ed86d6 data-v-f51f088d><a class="VPLink link" href="/project/architecture" data-v-f51f088d><!--[-->架构演进<!--]--></a></div><!--]--><!--]--></div><!--[--><!--]--></div></div></div><!--]--><!--[--><div class="VPFlyout VPNavBarMenuGroup" data-v-afb2845e data-v-af5898d3><button type="button" class="button" aria-haspopup="true" aria-expanded="false" data-v-af5898d3><span class="text" data-v-af5898d3><!----><span data-v-af5898d3>工具资源</span><span class="vpi-chevron-down text-icon" data-v-af5898d3></span></span></button><div class="menu" data-v-af5898d3><div class="VPMenu" data-v-af5898d3 data-v-20ed86d6><div class="items" data-v-20ed86d6><!--[--><!--[--><div class="VPMenuLink" data-v-20ed86d6 data-v-f51f088d><a class="VPLink link" href="/tool/online" data-v-f51f088d><!--[-->在线工具<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-20ed86d6 data-v-f51f088d><a class="VPLink link" href="/tool/software" data-v-f51f088d><!--[-->软件下载<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-20ed86d6 data-v-f51f088d><a class="VPLink link" href="/tool/website" data-v-f51f088d><!--[-->实用网站<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-20ed86d6 data-v-f51f088d><a class="VPLink link" href="/tool/mac" data-v-f51f088d><!--[-->MacOS<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-20ed86d6 data-v-f51f088d><a class="VPLink link" href="/tool/vim" data-v-f51f088d><!--[-->Vim<!--]--></a></div><!--]--><!--]--></div><!--[--><!--]--></div></div></div><!--]--><!--[--><div class="VPFlyout VPNavBarMenuGroup" data-v-afb2845e data-v-af5898d3><button type="button" class="button" aria-haspopup="true" aria-expanded="false" data-v-af5898d3><span class="text" data-v-af5898d3><!----><span data-v-af5898d3>生活随笔</span><span class="vpi-chevron-down text-icon" data-v-af5898d3></span></span></button><div class="menu" data-v-af5898d3><div class="VPMenu" data-v-af5898d3 data-v-20ed86d6><div class="items" data-v-20ed86d6><!--[--><!--[--><div class="VPMenuLink" data-v-20ed86d6 data-v-f51f088d><a class="VPLink link" href="/life/tourism" data-v-f51f088d><!--[-->旅游攻略<!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-20ed86d6 data-v-f51f088d><a class="VPLink link" href="/life/delicacy" data-v-f51f088d><!--[-->美食聚餐<!--]--></a></div><!--]--><!--]--></div><!--[--><!--]--></div></div></div><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/about" tabindex="0" data-v-afb2845e data-v-08fbf4b6><!--[--><span data-v-08fbf4b6>关于</span><!--]--></a><!--]--><!--]--></nav><!----><div class="VPNavBarAppearance appearance" data-v-9fd4d1dd data-v-3f90c1a5><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch to dark theme" aria-checked="false" data-v-3f90c1a5 data-v-be9742d9 data-v-b4ccac88><span class="check" data-v-b4ccac88><span class="icon" data-v-b4ccac88><!--[--><span class="vpi-sun sun" data-v-be9742d9></span><span class="vpi-moon moon" data-v-be9742d9></span><!--]--></span></span></button></div><div class="VPSocialLinks VPNavBarSocialLinks social-links" data-v-9fd4d1dd data-v-ef6192dc data-v-e71e869c><!--[--><a class="VPSocialLink no-icon" href="https://github.com/kirin-wu" aria-label="github" target="_blank" rel="noopener" data-v-e71e869c data-v-358b6670><span class="vpi-social-github" /></a><!--]--></div><div class="VPFlyout VPNavBarExtra extra" data-v-9fd4d1dd data-v-f953d92f data-v-af5898d3><button type="button" class="button" aria-haspopup="true" aria-expanded="false" aria-label="extra navigation" data-v-af5898d3><span class="vpi-more-horizontal icon" data-v-af5898d3></span></button><div class="menu" data-v-af5898d3><div class="VPMenu" data-v-af5898d3 data-v-20ed86d6><!----><!--[--><!--[--><!----><div class="group" data-v-f953d92f><div class="item appearance" data-v-f953d92f><p class="label" data-v-f953d92f>Appearance</p><div class="appearance-action" data-v-f953d92f><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch to dark theme" aria-checked="false" data-v-f953d92f data-v-be9742d9 data-v-b4ccac88><span class="check" data-v-b4ccac88><span class="icon" data-v-b4ccac88><!--[--><span class="vpi-sun sun" data-v-be9742d9></span><span class="vpi-moon moon" data-v-be9742d9></span><!--]--></span></span></button></div></div></div><div class="group" data-v-f953d92f><div class="item social-links" data-v-f953d92f><div class="VPSocialLinks social-links-list" data-v-f953d92f data-v-e71e869c><!--[--><a class="VPSocialLink no-icon" href="https://github.com/kirin-wu" aria-label="github" target="_blank" rel="noopener" data-v-e71e869c data-v-358b6670><span class="vpi-social-github" /></a><!--]--></div></div></div><!--]--><!--]--></div></div></div><!--[--><!--]--><button type="button" class="VPNavBarHamburger hamburger" aria-label="mobile navigation" aria-expanded="false" aria-controls="VPNavScreen" data-v-9fd4d1dd data-v-6bee1efd><span class="container" data-v-6bee1efd><span class="top" data-v-6bee1efd></span><span class="middle" data-v-6bee1efd></span><span class="bottom" data-v-6bee1efd></span></span></button></div></div></div></div><div class="divider" data-v-9fd4d1dd><div class="divider-line" data-v-9fd4d1dd></div></div></div><!----></header><div class="VPLocalNav empty fixed" data-v-d8b57b2d data-v-2488c25a><div class="container" data-v-2488c25a><!----><div class="VPLocalNavOutlineDropdown" style="--vp-vh:0px;" data-v-2488c25a data-v-883964e0><button data-v-883964e0>Return to top</button><!----></div></div></div><!----><div class="VPContent" id="VPContent" data-v-d8b57b2d data-v-9a6c75ad><div class="VPDoc has-aside" data-v-9a6c75ad data-v-e6f2a212><!--[--><!--]--><div class="container" data-v-e6f2a212><div class="aside" data-v-e6f2a212><div class="aside-curtain" data-v-e6f2a212></div><div class="aside-container" data-v-e6f2a212><div class="aside-content" data-v-e6f2a212><div class="VPDocAside" data-v-e6f2a212 data-v-cb998dce><!--[--><!--]--><!--[--><!--]--><nav aria-labelledby="doc-outline-aria-label" class="VPDocAsideOutline" data-v-cb998dce data-v-f610f197><div class="content" data-v-f610f197><div class="outline-marker" data-v-f610f197></div><div aria-level="2" class="outline-title" id="doc-outline-aria-label" role="heading" data-v-f610f197>目录</div><ul class="VPDocOutlineItem root" data-v-f610f197 data-v-53c99d69><!--[--><!--]--></ul></div></nav><!--[--><!--]--><div class="spacer" data-v-cb998dce></div><!--[--><!--]--><!----><!--[--><!--]--><!--[--><!--]--></div></div></div></div><div class="content" data-v-e6f2a212><div class="content-container" data-v-e6f2a212><!--[--><!--]--><main class="main" data-v-e6f2a212><div style="position:relative;" class="vp-doc _api-examples" data-v-e6f2a212><div><h1 id="runtime-api-examples" tabindex="-1">Runtime API Examples <a class="header-anchor" href="#runtime-api-examples" aria-label="Permalink to &quot;Runtime API Examples&quot;">​</a></h1><p>This page demonstrates usage of some of the runtime APIs provided by VitePress.</p><p>The main <code>useData()</code> API can be used to access site, theme, and page data for the current page. It works in both <code>.md</code> and <code>.vue</code> files:</p><div class="language-md vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">md</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">script</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> setup</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
 <span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> { useData } </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">from</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &#39;vitepress&#39;</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">const</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> { </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">theme</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">page</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">frontmatter</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> } </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">=</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> useData</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">()</span></span>
@@ -34,48 +34,448 @@
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">### Page Frontmatter</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">pre</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;{{ frontmatter }}&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">pre</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span></code></pre></div><h2 id="results" tabindex="-1">Results <a class="header-anchor" href="#results" aria-label="Permalink to &quot;Results&quot;">​</a></h2><h3 id="theme-data" tabindex="-1">Theme Data <a class="header-anchor" href="#theme-data" aria-label="Permalink to &quot;Theme Data&quot;">​</a></h3><pre>{
-  &quot;logo&quot;: &quot;../assets/logo.ico&quot;,
+  &quot;logo&quot;: &quot;/logo.ico&quot;,
   &quot;nav&quot;: [
     {
       &quot;text&quot;: &quot;Home&quot;,
       &quot;link&quot;: &quot;/&quot;
     },
     {
-      &quot;text&quot;: &quot;生活日记&quot;,
-      &quot;link&quot;: &quot;/life&quot;
-    },
-    {
-      &quot;text&quot;: &quot;工具分享&quot;,
-      &quot;link&quot;: &quot;/tool&quot;
-    },
-    {
-      &quot;text&quot;: &quot;程序员客栈&quot;,
-      &quot;link&quot;: &quot;/programmer&quot;
-    },
-    {
       &quot;text&quot;: &quot;知识库&quot;,
-      &quot;link&quot;: &quot;/knowledge&quot;
-    }
-  ],
-  &quot;sidebar&quot;: [
-    {
-      &quot;text&quot;: &quot;Examples&quot;,
+      &quot;activeMatch&quot;: &quot;^/knowledge&quot;,
       &quot;items&quot;: [
         {
-          &quot;text&quot;: &quot;Markdown Examples&quot;,
-          &quot;link&quot;: &quot;/life&quot;
+          &quot;text&quot;: &quot;前端&quot;,
+          &quot;link&quot;: &quot;/knowledge/frontend&quot;
         },
         {
-          &quot;text&quot;: &quot;Runtime API Examples&quot;,
-          &quot;link&quot;: &quot;/api-examples&quot;
+          &quot;text&quot;: &quot;后端&quot;,
+          &quot;link&quot;: &quot;/knowledge/backend&quot;
         },
         {
-          &quot;text&quot;: &quot;知识库&quot;,
-          &quot;link&quot;: &quot;/knowledge-base&quot;
+          &quot;text&quot;: &quot;AI&quot;,
+          &quot;link&quot;: &quot;/knowledge/ai&quot;
+        },
+        {
+          &quot;text&quot;: &quot;运维&quot;,
+          &quot;link&quot;: &quot;/knowledge/devops&quot;
         }
       ]
+    },
+    {
+      &quot;text&quot;: &quot;项目实战&quot;,
+      &quot;activeMatch&quot;: &quot;^/project&quot;,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;项目复盘&quot;,
+          &quot;link&quot;: &quot;/project/retrospective&quot;
+        },
+        {
+          &quot;text&quot;: &quot;踩坑记录&quot;,
+          &quot;link&quot;: &quot;/project/pitfalls&quot;
+        },
+        {
+          &quot;text&quot;: &quot;性能优化&quot;,
+          &quot;link&quot;: &quot;/project/performance&quot;
+        },
+        {
+          &quot;text&quot;: &quot;架构演进&quot;,
+          &quot;link&quot;: &quot;/project/architecture&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;工具资源&quot;,
+      &quot;activeMatch&quot;: &quot;^/tool&quot;,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;在线工具&quot;,
+          &quot;link&quot;: &quot;/tool/online&quot;
+        },
+        {
+          &quot;text&quot;: &quot;软件下载&quot;,
+          &quot;link&quot;: &quot;/tool/software&quot;
+        },
+        {
+          &quot;text&quot;: &quot;实用网站&quot;,
+          &quot;link&quot;: &quot;/tool/website&quot;
+        },
+        {
+          &quot;text&quot;: &quot;MacOS&quot;,
+          &quot;link&quot;: &quot;/tool/mac&quot;
+        },
+        {
+          &quot;text&quot;: &quot;Vim&quot;,
+          &quot;link&quot;: &quot;/tool/vim&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;生活随笔&quot;,
+      &quot;activeMatch&quot;: &quot;^/life&quot;,
+      &quot;items&quot;: [
+        {
+          &quot;text&quot;: &quot;旅游攻略&quot;,
+          &quot;link&quot;: &quot;/life/tourism&quot;
+        },
+        {
+          &quot;text&quot;: &quot;美食聚餐&quot;,
+          &quot;link&quot;: &quot;/life/delicacy&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;关于&quot;,
+      &quot;activeMatch&quot;: &quot;^/about&quot;,
+      &quot;link&quot;: &quot;/about&quot;
     }
   ],
+  &quot;sidebar&quot;: {
+    &quot;/life&quot;: [
+      {
+        &quot;text&quot;: &quot;旅游攻略 (5篇)&quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;📝 新疆旅行&quot;,
+            &quot;link&quot;: &quot;/life/tourism/xinjiang&quot;
+          },
+          {
+            &quot;text&quot;: &quot;📝 100个5A景区&quot;,
+            &quot;link&quot;: &quot;/life/tourism/5A&quot;,
+            &quot;sort&quot;: 3
+          },
+          {
+            &quot;text&quot;: &quot;📝 漂流&quot;,
+            &quot;link&quot;: &quot;/life/tourism/drift&quot;
+          },
+          {
+            &quot;text&quot;: &quot;📝 徒步&quot;,
+            &quot;link&quot;: &quot;/life/tourism/foot&quot;
+          },
+          {
+            &quot;text&quot;: &quot;📝 爬山&quot;,
+            &quot;link&quot;: &quot;/life/tourism/mountain&quot;
+          }
+        ],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;美食分享 &quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [],
+        &quot;collapsed&quot;: false
+      }
+    ],
+    &quot;/tool&quot;: [
+      {
+        &quot;text&quot;: &quot;Mac 常用工具 &quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;online &quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;software &quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;Vim 插件常用快捷键说明 &quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;在线工具 (1篇)&quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;📝 前端工具网站&quot;,
+            &quot;link&quot;: &quot;/tool/website/quick&quot;,
+            &quot;sort&quot;: 3
+          }
+        ],
+        &quot;collapsed&quot;: false
+      }
+    ],
+    &quot;/programmer&quot;: [
+      {
+        &quot;text&quot;: &quot;编程基础 (1篇)&quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;📝 设计模式&quot;,
+            &quot;link&quot;: &quot;/programmer/basic/design&quot;,
+            &quot;sort&quot;: 1
+          }
+        ],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;前端 (2篇)&quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;📝 微前端&quot;,
+            &quot;link&quot;: &quot;/programmer/front/micro&quot;,
+            &quot;sort&quot;: 1
+          },
+          {
+            &quot;text&quot;: &quot;📝 微信小程序&quot;,
+            &quot;link&quot;: &quot;/programmer/front/wechat&quot;,
+            &quot;sort&quot;: 2
+          }
+        ],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;后端 &quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;Docker (3篇)&quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;📝 安装运行&quot;,
+            &quot;link&quot;: &quot;/programmer/docker/install&quot;,
+            &quot;sort&quot;: 1
+          },
+          {
+            &quot;text&quot;: &quot;📝 Dockerfile&quot;,
+            &quot;link&quot;: &quot;/programmer/docker/dockerfile&quot;,
+            &quot;sort&quot;: 3
+          },
+          {
+            &quot;text&quot;: &quot;📝 自建容器&quot;,
+            &quot;link&quot;: &quot;/programmer/docker/workpress&quot;,
+            &quot;sort&quot;: 3
+          }
+        ],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;MySQL &quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;网络 &quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;面试题 (1篇)&quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;📝 工程化&quot;,
+            &quot;link&quot;: &quot;/programmer/interview-question/engineering&quot;,
+            &quot;sort&quot;: 1
+          }
+        ],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;ops &quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [],
+        &quot;collapsed&quot;: false
+      }
+    ],
+    &quot;/knowledge&quot;: [
+      {
+        &quot;text&quot;: &quot;前端 (7篇)&quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;📝 HTML/CSS&quot;,
+            &quot;link&quot;: &quot;/knowledge/frontend/html-css&quot;,
+            &quot;sort&quot;: 1
+          },
+          {
+            &quot;text&quot;: &quot;📝 JavaScript&quot;,
+            &quot;link&quot;: &quot;/knowledge/frontend/javascript&quot;,
+            &quot;sort&quot;: 2
+          },
+          {
+            &quot;text&quot;: &quot;📝 TypeScript&quot;,
+            &quot;link&quot;: &quot;/knowledge/frontend/typescript&quot;,
+            &quot;sort&quot;: 3
+          },
+          {
+            &quot;text&quot;: &quot;📝 Vue&quot;,
+            &quot;link&quot;: &quot;/knowledge/frontend/vue&quot;,
+            &quot;sort&quot;: 4
+          },
+          {
+            &quot;text&quot;: &quot;📝 React&quot;,
+            &quot;link&quot;: &quot;/knowledge/frontend/react&quot;,
+            &quot;sort&quot;: 5
+          },
+          {
+            &quot;text&quot;: &quot;📝 Next/Nuxt&quot;,
+            &quot;link&quot;: &quot;/knowledge/frontend/next-nuxt&quot;,
+            &quot;sort&quot;: 6
+          },
+          {
+            &quot;text&quot;: &quot;📝 工程化&quot;,
+            &quot;link&quot;: &quot;/knowledge/frontend/engineering&quot;,
+            &quot;sort&quot;: 7
+          }
+        ],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;后端 (6篇)&quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;📝 Node/Nest&quot;,
+            &quot;link&quot;: &quot;/knowledge/backend/node-nest&quot;,
+            &quot;sort&quot;: 1
+          },
+          {
+            &quot;text&quot;: &quot;📝 Python/FastAPI&quot;,
+            &quot;link&quot;: &quot;/knowledge/backend/python-fastapi&quot;,
+            &quot;sort&quot;: 2
+          },
+          {
+            &quot;text&quot;: &quot;📝 Java/Spring&quot;,
+            &quot;link&quot;: &quot;/knowledge/backend/java-spring&quot;,
+            &quot;sort&quot;: 3
+          },
+          {
+            &quot;text&quot;: &quot;📝 Go&quot;,
+            &quot;link&quot;: &quot;/knowledge/backend/go&quot;,
+            &quot;sort&quot;: 4
+          },
+          {
+            &quot;text&quot;: &quot;📝 MySQL/Redis&quot;,
+            &quot;link&quot;: &quot;/knowledge/backend/mysql-redis&quot;,
+            &quot;sort&quot;: 5
+          },
+          {
+            &quot;text&quot;: &quot;📝 API 设计&quot;,
+            &quot;link&quot;: &quot;/knowledge/backend/api-design&quot;,
+            &quot;sort&quot;: 6
+          }
+        ],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;AI (6篇)&quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;📝 LLM 基础&quot;,
+            &quot;link&quot;: &quot;/knowledge/ai/llm-foundation&quot;,
+            &quot;sort&quot;: 1
+          },
+          {
+            &quot;text&quot;: &quot;📝 Prompt 工程&quot;,
+            &quot;link&quot;: &quot;/knowledge/ai/prompt-engineering&quot;,
+            &quot;sort&quot;: 2
+          },
+          {
+            &quot;text&quot;: &quot;📝 RAG&quot;,
+            &quot;link&quot;: &quot;/knowledge/ai/rag&quot;,
+            &quot;sort&quot;: 3
+          },
+          {
+            &quot;text&quot;: &quot;📝 Agent&quot;,
+            &quot;link&quot;: &quot;/knowledge/ai/agent&quot;,
+            &quot;sort&quot;: 4
+          },
+          {
+            &quot;text&quot;: &quot;📝 多模态&quot;,
+            &quot;link&quot;: &quot;/knowledge/ai/multimodal&quot;,
+            &quot;sort&quot;: 5
+          },
+          {
+            &quot;text&quot;: &quot;📝 AI 应用实战&quot;,
+            &quot;link&quot;: &quot;/knowledge/ai/ai-app-practice&quot;,
+            &quot;sort&quot;: 6
+          }
+        ],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;运维 (6篇)&quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;📝 Linux&quot;,
+            &quot;link&quot;: &quot;/knowledge/devops/linux&quot;,
+            &quot;sort&quot;: 1
+          },
+          {
+            &quot;text&quot;: &quot;📝 Docker&quot;,
+            &quot;link&quot;: &quot;/knowledge/devops/docker&quot;,
+            &quot;sort&quot;: 2
+          },
+          {
+            &quot;text&quot;: &quot;📝 Kubernetes&quot;,
+            &quot;link&quot;: &quot;/knowledge/devops/kubernetes&quot;,
+            &quot;sort&quot;: 3
+          },
+          {
+            &quot;text&quot;: &quot;📝 Nginx&quot;,
+            &quot;link&quot;: &quot;/knowledge/devops/nginx&quot;,
+            &quot;sort&quot;: 4
+          },
+          {
+            &quot;text&quot;: &quot;📝 CI/CD&quot;,
+            &quot;link&quot;: &quot;/knowledge/devops/cicd&quot;,
+            &quot;sort&quot;: 5
+          },
+          {
+            &quot;text&quot;: &quot;📝 监控告警&quot;,
+            &quot;link&quot;: &quot;/knowledge/devops/monitoring&quot;,
+            &quot;sort&quot;: 6
+          }
+        ],
+        &quot;collapsed&quot;: true
+      }
+    ],
+    &quot;/project&quot;: [
+      {
+        &quot;text&quot;: &quot;项目复盘 &quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;踩坑记录 &quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;性能优化 &quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [],
+        &quot;collapsed&quot;: false
+      },
+      {
+        &quot;text&quot;: &quot;架构演进 &quot;,
+        &quot;link&quot;: &quot;&quot;,
+        &quot;items&quot;: [],
+        &quot;collapsed&quot;: false
+      }
+    ]
+  },
   &quot;socialLinks&quot;: [
     {
       &quot;icon&quot;: &quot;github&quot;,
@@ -88,6 +488,13 @@
   &quot;footer&quot;: {
     &quot;message&quot;: &quot;Released under the MIT License.&quot;,
     &quot;copyright&quot;: &quot;Copyright © 2019-2024 Kirin Wu&quot;
+  },
+  &quot;outline&quot;: {
+    &quot;label&quot;: &quot;目录&quot;,
+    &quot;level&quot;: [
+      1,
+      2
+    ]
   }
 }</pre><h3 id="page-data" tabindex="-1">Page Data <a class="header-anchor" href="#page-data" aria-label="Permalink to &quot;Page Data&quot;">​</a></h3><pre>{
   &quot;title&quot;: &quot;Runtime API Examples&quot;,
@@ -100,8 +507,8 @@
   &quot;filePath&quot;: &quot;api-examples.md&quot;
 }</pre><h3 id="page-frontmatter" tabindex="-1">Page Frontmatter <a class="header-anchor" href="#page-frontmatter" aria-label="Permalink to &quot;Page Frontmatter&quot;">​</a></h3><pre>{
   &quot;outline&quot;: &quot;deep&quot;
-}</pre><h2 id="more" tabindex="-1">More <a class="header-anchor" href="#more" aria-label="Permalink to &quot;More&quot;">​</a></h2><p>Check out the documentation for the <a href="https://vitepress.dev/reference/runtime-api#usedata" target="_blank" rel="noreferrer">full list of runtime APIs</a>.</p></div></div></main><footer class="VPDocFooter" data-v-6fb61154 data-v-569689b0><!--[--><!--]--><!----><nav class="prev-next" aria-labelledby="doc-footer-aria-label" data-v-569689b0><span class="visually-hidden" id="doc-footer-aria-label" data-v-569689b0>Pager</span><div class="pager" data-v-569689b0><a class="VPLink link pager-link prev" href="/life.html" data-v-569689b0><!--[--><span class="desc" data-v-569689b0>Previous page</span><span class="title" data-v-569689b0>Markdown Examples</span><!--]--></a></div><div class="pager" data-v-569689b0><a class="VPLink link pager-link next" href="/knowledge-base.html" data-v-569689b0><!--[--><span class="desc" data-v-569689b0>Next page</span><span class="title" data-v-569689b0>知识库</span><!--]--></a></div></nav></footer><!--[--><!--]--></div></div></div><!--[--><!--]--></div></div><footer class="VPFooter has-sidebar" data-v-ef0a394c data-v-0d28fe50><div class="container" data-v-0d28fe50><p class="message" data-v-0d28fe50>Released under the MIT License.</p><p class="copyright" data-v-0d28fe50>Copyright © 2019-2024 Kirin Wu</p></div></footer><!--[--><!--]--></div></div>
-    <script>window.__VP_HASH_MAP__=JSON.parse("{\"api-examples.md\":\"Dj2Y_IoQ\",\"index.md\":\"DIZee-hg\",\"knowledge-base.md\":\"C9HR4Qwx\",\"markdown-examples.md\":\"CRl63WZu\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"KirinWu Blog\",\"description\":\"生活就像海洋，只有意志坚强的人才能到达彼岸。\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"logo\":\"../assets/logo.ico\",\"nav\":[{\"text\":\"Home\",\"link\":\"/\"},{\"text\":\"生活日记\",\"link\":\"/life\"},{\"text\":\"工具分享\",\"link\":\"/tool\"},{\"text\":\"程序员客栈\",\"link\":\"/programmer\"},{\"text\":\"知识库\",\"link\":\"/knowledge\"}],\"sidebar\":[{\"text\":\"Examples\",\"items\":[{\"text\":\"Markdown Examples\",\"link\":\"/life\"},{\"text\":\"Runtime API Examples\",\"link\":\"/api-examples\"},{\"text\":\"知识库\",\"link\":\"/knowledge-base\"}]}],\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/kirin-wu\"}],\"search\":{\"provider\":\"local\"},\"footer\":{\"message\":\"Released under the MIT License.\",\"copyright\":\"Copyright © 2019-2024 Kirin Wu\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
+}</pre><h2 id="more" tabindex="-1">More <a class="header-anchor" href="#more" aria-label="Permalink to &quot;More&quot;">​</a></h2><p>Check out the documentation for the <a href="https://vitepress.dev/reference/runtime-api#usedata" target="_blank" rel="noreferrer">full list of runtime APIs</a>.</p></div></div></main><footer class="VPDocFooter" data-v-e6f2a212 data-v-1bcd8184><!--[--><!--]--><!----><!----></footer><!--[--><!--]--></div></div></div><!--[--><!--]--></div></div><footer class="VPFooter" data-v-d8b57b2d data-v-566314d4><div class="container" data-v-566314d4><p class="message" data-v-566314d4>Released under the MIT License.</p><p class="copyright" data-v-566314d4>Copyright © 2019-2024 Kirin Wu</p></div></footer><!--[--><!--]--></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DZVTMM1L\",\"api-examples.md\":\"DVvFybkd\",\"deploy_aliyun_deploy_aliyun.md\":\"SO1xfQJi\",\"index.md\":\"DDubi38r\",\"knowledge.md\":\"5oF_O112\",\"knowledge_ai.md\":\"D3hIpbyl\",\"knowledge_ai_agent.md\":\"Cr_qag7o\",\"knowledge_ai_ai-app-practice.md\":\"D6WKRa1H\",\"knowledge_ai_llm-foundation.md\":\"kO2VkvLk\",\"knowledge_ai_multimodal.md\":\"YJ2xHmOl\",\"knowledge_ai_prompt-engineering.md\":\"DyRBfrGM\",\"knowledge_ai_rag.md\":\"B-nPROeX\",\"knowledge_backend.md\":\"27XOVoxU\",\"knowledge_backend_api-design.md\":\"ByuFJedw\",\"knowledge_backend_go.md\":\"suvKiAMA\",\"knowledge_backend_java-spring.md\":\"_VbDCyOJ\",\"knowledge_backend_mysql-redis.md\":\"Cr_vf3_I\",\"knowledge_backend_node-nest.md\":\"BexbiBAK\",\"knowledge_backend_python-fastapi.md\":\"_0kLvs9Q\",\"knowledge_devops.md\":\"Bajt8zyu\",\"knowledge_devops_cicd.md\":\"CBiG13ks\",\"knowledge_devops_docker.md\":\"sI1cZkLh\",\"knowledge_devops_kubernetes.md\":\"eIC2dFSe\",\"knowledge_devops_linux.md\":\"DfCJhAp7\",\"knowledge_devops_monitoring.md\":\"CysPL_pw\",\"knowledge_devops_nginx.md\":\"Du8FzVi3\",\"knowledge_frontend.md\":\"Bcf3yGyi\",\"knowledge_frontend_engineering.md\":\"Dhp1-Xto\",\"knowledge_frontend_html-css.md\":\"BNDjnAsE\",\"knowledge_frontend_javascript.md\":\"3Yb-YYzl\",\"knowledge_frontend_next-nuxt.md\":\"CW7AcKO3\",\"knowledge_frontend_react.md\":\"CTRhHmcr\",\"knowledge_frontend_typescript.md\":\"Cv5H6kZ_\",\"knowledge_frontend_vue.md\":\"CCtJwa87\",\"knowledge_javascript.md\":\"CJGEt4EO\",\"knowledge_javascript_arr.md\":\"CRjF97EO\",\"knowledge_javascript_canvas.md\":\"BbblNpLW\",\"knowledge_markdown.md\":\"Boq_o_or\",\"knowledge_markdown_cheat.md\":\"DhCuxOqG\",\"knowledge_markdown_vitepress.md\":\"CSkNa5ba\",\"knowledge_nest.md\":\"DCb6WOMN\",\"knowledge_nest_controller.md\":\"DlbkYvhI\",\"knowledge_nest_module.md\":\"5f12O8jG\",\"knowledge_node.md\":\"DeAwMKgb\",\"knowledge_node_00-nodejs服务端框架.md\":\"CM8X7x4Y\",\"knowledge_react.md\":\"DTRyTWdV\",\"knowledge_react_cra.md\":\"DYsA7mGN\",\"knowledge_react_hooks.md\":\"CkVm9mKI\",\"knowledge_react_life-cycle.md\":\"BRivGWLA\",\"knowledge_react_router.md\":\"BhhCN7BM\",\"knowledge_typescript.md\":\"LCxDPCGf\",\"knowledge_typescript_01-base.md\":\"xKrWrIMF\",\"knowledge_typescript_02-any、unknown、never.md\":\"DsfYsSmV\",\"knowledge_typescript_03-类型系统.md\":\"BGEXFWCL\",\"knowledge_vue.md\":\"C0eoX3oM\",\"knowledge_vue_vue2.md\":\"Dm1ei1u0\",\"knowledge_vue_vue3.md\":\"CaAsmpgY\",\"life.md\":\"DjnkoRUU\",\"life_delicacy.md\":\"PIVYW1dZ\",\"life_tourism.md\":\"v5kG_vRI\",\"life_tourism_5a.md\":\"Qme7-nbN\",\"life_tourism_drift.md\":\"CxRM7bRI\",\"life_tourism_foot.md\":\"CCkXzFHI\",\"life_tourism_mountain.md\":\"CIVTDi9X\",\"life_tourism_xinjiang.md\":\"BVBMCBN3\",\"markdown-examples.md\":\"Orylud6_\",\"programmer.md\":\"BwHfrL4F\",\"programmer_back.md\":\"CYT10Hmc\",\"programmer_basic.md\":\"Bh6kS2mM\",\"programmer_basic_design.md\":\"BELdrQ1W\",\"programmer_docker.md\":\"DPs68TwD\",\"programmer_docker_dockerfile.md\":\"D7td2CRR\",\"programmer_docker_install.md\":\"DzwayU5l\",\"programmer_docker_workpress.md\":\"BsHCcYrT\",\"programmer_front.md\":\"CkU4ho2C\",\"programmer_front_micro.md\":\"GYR8VMMZ\",\"programmer_front_wechat.md\":\"Tcn4nqMO\",\"programmer_interview-question.md\":\"C8VvYicA\",\"programmer_interview-question_engineering.md\":\"Z1hZ6Rl3\",\"programmer_mysql.md\":\"aKdUCMPz\",\"programmer_network.md\":\"wfIZDy0w\",\"programmer_ops.md\":\"DhkNaJCP\",\"project.md\":\"hsXgN0xz\",\"project_architecture.md\":\"DZA0mvQ7\",\"project_performance.md\":\"Dtvj_Caq\",\"project_pitfalls.md\":\"Bf7bL_Y8\",\"project_retrospective.md\":\"YDC4c2DQ\",\"tool.md\":\"62hIbTnT\",\"tool_mac.md\":\"vcRDZTPO\",\"tool_online.md\":\"BPxB7RnI\",\"tool_software.md\":\"C7J7hFij\",\"tool_vim.md\":\"BgbqcIfl\",\"tool_website.md\":\"jXpT9vwa\",\"tool_website_quick.md\":\"D3fwUXxL\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"KirinWu Blog\",\"description\":\"生活就像海洋，只有意志坚强的人才能到达彼岸。\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"logo\":\"/logo.ico\",\"nav\":[{\"text\":\"Home\",\"link\":\"/\"},{\"text\":\"知识库\",\"activeMatch\":\"^/knowledge\",\"items\":[{\"text\":\"前端\",\"link\":\"/knowledge/frontend\"},{\"text\":\"后端\",\"link\":\"/knowledge/backend\"},{\"text\":\"AI\",\"link\":\"/knowledge/ai\"},{\"text\":\"运维\",\"link\":\"/knowledge/devops\"}]},{\"text\":\"项目实战\",\"activeMatch\":\"^/project\",\"items\":[{\"text\":\"项目复盘\",\"link\":\"/project/retrospective\"},{\"text\":\"踩坑记录\",\"link\":\"/project/pitfalls\"},{\"text\":\"性能优化\",\"link\":\"/project/performance\"},{\"text\":\"架构演进\",\"link\":\"/project/architecture\"}]},{\"text\":\"工具资源\",\"activeMatch\":\"^/tool\",\"items\":[{\"text\":\"在线工具\",\"link\":\"/tool/online\"},{\"text\":\"软件下载\",\"link\":\"/tool/software\"},{\"text\":\"实用网站\",\"link\":\"/tool/website\"},{\"text\":\"MacOS\",\"link\":\"/tool/mac\"},{\"text\":\"Vim\",\"link\":\"/tool/vim\"}]},{\"text\":\"生活随笔\",\"activeMatch\":\"^/life\",\"items\":[{\"text\":\"旅游攻略\",\"link\":\"/life/tourism\"},{\"text\":\"美食聚餐\",\"link\":\"/life/delicacy\"}]},{\"text\":\"关于\",\"activeMatch\":\"^/about\",\"link\":\"/about\"}],\"sidebar\":{\"/life\":[{\"text\":\"旅游攻略 (5篇)\",\"link\":\"\",\"items\":[{\"text\":\"📝 新疆旅行\",\"link\":\"/life/tourism/xinjiang\"},{\"text\":\"📝 100个5A景区\",\"link\":\"/life/tourism/5A\",\"sort\":3},{\"text\":\"📝 漂流\",\"link\":\"/life/tourism/drift\"},{\"text\":\"📝 徒步\",\"link\":\"/life/tourism/foot\"},{\"text\":\"📝 爬山\",\"link\":\"/life/tourism/mountain\"}],\"collapsed\":false},{\"text\":\"美食分享 \",\"link\":\"\",\"items\":[],\"collapsed\":false}],\"/tool\":[{\"text\":\"Mac 常用工具 \",\"link\":\"\",\"items\":[],\"collapsed\":false},{\"text\":\"online \",\"link\":\"\",\"items\":[],\"collapsed\":false},{\"text\":\"software \",\"link\":\"\",\"items\":[],\"collapsed\":false},{\"text\":\"Vim 插件常用快捷键说明 \",\"link\":\"\",\"items\":[],\"collapsed\":false},{\"text\":\"在线工具 (1篇)\",\"link\":\"\",\"items\":[{\"text\":\"📝 前端工具网站\",\"link\":\"/tool/website/quick\",\"sort\":3}],\"collapsed\":false}],\"/programmer\":[{\"text\":\"编程基础 (1篇)\",\"link\":\"\",\"items\":[{\"text\":\"📝 设计模式\",\"link\":\"/programmer/basic/design\",\"sort\":1}],\"collapsed\":false},{\"text\":\"前端 (2篇)\",\"link\":\"\",\"items\":[{\"text\":\"📝 微前端\",\"link\":\"/programmer/front/micro\",\"sort\":1},{\"text\":\"📝 微信小程序\",\"link\":\"/programmer/front/wechat\",\"sort\":2}],\"collapsed\":false},{\"text\":\"后端 \",\"link\":\"\",\"items\":[],\"collapsed\":false},{\"text\":\"Docker (3篇)\",\"link\":\"\",\"items\":[{\"text\":\"📝 安装运行\",\"link\":\"/programmer/docker/install\",\"sort\":1},{\"text\":\"📝 Dockerfile\",\"link\":\"/programmer/docker/dockerfile\",\"sort\":3},{\"text\":\"📝 自建容器\",\"link\":\"/programmer/docker/workpress\",\"sort\":3}],\"collapsed\":false},{\"text\":\"MySQL \",\"link\":\"\",\"items\":[],\"collapsed\":false},{\"text\":\"网络 \",\"link\":\"\",\"items\":[],\"collapsed\":false},{\"text\":\"面试题 (1篇)\",\"link\":\"\",\"items\":[{\"text\":\"📝 工程化\",\"link\":\"/programmer/interview-question/engineering\",\"sort\":1}],\"collapsed\":false},{\"text\":\"ops \",\"link\":\"\",\"items\":[],\"collapsed\":false}],\"/knowledge\":[{\"text\":\"前端 (7篇)\",\"link\":\"\",\"items\":[{\"text\":\"📝 HTML/CSS\",\"link\":\"/knowledge/frontend/html-css\",\"sort\":1},{\"text\":\"📝 JavaScript\",\"link\":\"/knowledge/frontend/javascript\",\"sort\":2},{\"text\":\"📝 TypeScript\",\"link\":\"/knowledge/frontend/typescript\",\"sort\":3},{\"text\":\"📝 Vue\",\"link\":\"/knowledge/frontend/vue\",\"sort\":4},{\"text\":\"📝 React\",\"link\":\"/knowledge/frontend/react\",\"sort\":5},{\"text\":\"📝 Next/Nuxt\",\"link\":\"/knowledge/frontend/next-nuxt\",\"sort\":6},{\"text\":\"📝 工程化\",\"link\":\"/knowledge/frontend/engineering\",\"sort\":7}],\"collapsed\":false},{\"text\":\"后端 (6篇)\",\"link\":\"\",\"items\":[{\"text\":\"📝 Node/Nest\",\"link\":\"/knowledge/backend/node-nest\",\"sort\":1},{\"text\":\"📝 Python/FastAPI\",\"link\":\"/knowledge/backend/python-fastapi\",\"sort\":2},{\"text\":\"📝 Java/Spring\",\"link\":\"/knowledge/backend/java-spring\",\"sort\":3},{\"text\":\"📝 Go\",\"link\":\"/knowledge/backend/go\",\"sort\":4},{\"text\":\"📝 MySQL/Redis\",\"link\":\"/knowledge/backend/mysql-redis\",\"sort\":5},{\"text\":\"📝 API 设计\",\"link\":\"/knowledge/backend/api-design\",\"sort\":6}],\"collapsed\":false},{\"text\":\"AI (6篇)\",\"link\":\"\",\"items\":[{\"text\":\"📝 LLM 基础\",\"link\":\"/knowledge/ai/llm-foundation\",\"sort\":1},{\"text\":\"📝 Prompt 工程\",\"link\":\"/knowledge/ai/prompt-engineering\",\"sort\":2},{\"text\":\"📝 RAG\",\"link\":\"/knowledge/ai/rag\",\"sort\":3},{\"text\":\"📝 Agent\",\"link\":\"/knowledge/ai/agent\",\"sort\":4},{\"text\":\"📝 多模态\",\"link\":\"/knowledge/ai/multimodal\",\"sort\":5},{\"text\":\"📝 AI 应用实战\",\"link\":\"/knowledge/ai/ai-app-practice\",\"sort\":6}],\"collapsed\":false},{\"text\":\"运维 (6篇)\",\"link\":\"\",\"items\":[{\"text\":\"📝 Linux\",\"link\":\"/knowledge/devops/linux\",\"sort\":1},{\"text\":\"📝 Docker\",\"link\":\"/knowledge/devops/docker\",\"sort\":2},{\"text\":\"📝 Kubernetes\",\"link\":\"/knowledge/devops/kubernetes\",\"sort\":3},{\"text\":\"📝 Nginx\",\"link\":\"/knowledge/devops/nginx\",\"sort\":4},{\"text\":\"📝 CI/CD\",\"link\":\"/knowledge/devops/cicd\",\"sort\":5},{\"text\":\"📝 监控告警\",\"link\":\"/knowledge/devops/monitoring\",\"sort\":6}],\"collapsed\":true}],\"/project\":[{\"text\":\"项目复盘 \",\"link\":\"\",\"items\":[],\"collapsed\":false},{\"text\":\"踩坑记录 \",\"link\":\"\",\"items\":[],\"collapsed\":false},{\"text\":\"性能优化 \",\"link\":\"\",\"items\":[],\"collapsed\":false},{\"text\":\"架构演进 \",\"link\":\"\",\"items\":[],\"collapsed\":false}]},\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/kirin-wu\"}],\"search\":{\"provider\":\"local\"},\"footer\":{\"message\":\"Released under the MIT License.\",\"copyright\":\"Copyright © 2019-2024 Kirin Wu\"},\"outline\":{\"label\":\"目录\",\"level\":[1,2]}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
     
   </body>
 </html>

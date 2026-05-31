@@ -1,0 +1,5 @@
+name = "kirin-blog"
+compatibility_date = "2026-05-31"
+
+[assets]
+directory = ".vitepress/dist"

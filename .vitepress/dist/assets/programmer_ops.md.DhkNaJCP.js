@@ -1,1 +1,0 @@
-import{_ as e,c as r,o as t}from"./chunks/framework.CyBENvPl.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"programmer/ops.md","filePath":"pages/programmer/ops/index.md"}'),a={name:"programmer/ops.md"};function o(s,p,n,c,m,d){return t(),r("div")}const f=e(a,[["render",o]]);export{_ as __pageData,f as default};

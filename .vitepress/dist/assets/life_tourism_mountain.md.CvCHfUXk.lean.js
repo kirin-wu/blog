@@ -1,0 +1,2 @@
+import{_ as e,o,c as a,j as t}from"./chunks/framework.Dayh6OL6.js";const f=JSON.parse('{"title":"爬山","description":"","frontmatter":{"title":"爬山","description":"","date":"2024-05-27T07:48:42.000Z","tags":["tourism"]},"headers":[],"relativePath":"life/tourism/mountain.md","filePath":"pages/life/tourism/mountain/README.md"}'),s={name:"life/tourism/mountain.md"},n=t("pre",null,[t("code",null,`爬山
+`)],-1),i=[n];function r(c,l,d,m,_,p){return o(),a("div",null,i)}const h=e(s,[["render",r]]);export{f as __pageData,h as default};

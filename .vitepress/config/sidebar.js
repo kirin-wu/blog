@@ -47,12 +47,15 @@ function getItemsByCategory(path, includeGroups = null) {
       let showChapterCount = true
       let showChapterCountName = ''
       let needRoute = false
-      if (fs.existsSync(`${path}/${group}/index.md`)) {
-        const { data } = matter.read(`${path}/${group}/index.md`)
+      let hasChapterContent = false
+      const chapterPath = `${path}/${group}/index.md`
+      if (fs.existsSync(chapterPath)) {
+        const { data, content } = matter.read(chapterPath)
         data.title !== undefined ? (chapter = data.title) : (chapter = group)
         data.showChapterCount !== undefined ? (showChapterCount = data.showChapterCount) : (showChapterCount = true)
         data.showChapterCountName !== undefined ? (showChapterCountName = data.showChapterCountName) : (showChapterCountName = '篇')
         data.needRoute !== undefined ? (needRoute = data.needRoute) : (needRoute = false)
+        hasChapterContent = content.trim().length > 0
       }
 
       // 2.获取分组下的所有文章
@@ -77,9 +80,25 @@ function getItemsByCategory(path, includeGroups = null) {
         })
       })
 
+      const route = `/${path}/${group}`.replace('pages/', '')
+
+      if (items.length === 0 && !needRoute && !hasChapterContent) {
+        items = []
+        return
+      }
+
+      if (items.length === 0) {
+        groups.push({
+          text: `${chapter !== '' ? chapter : group}`,
+          link: route,
+        })
+        items = []
+        return
+      }
+
       groups.push({
         text: `${chapter !== '' ? chapter : group} ${showChapterCount && items.length > 0 ? `(${items.length}${showChapterCountName})` : ''}`,
-        link: `${needRoute ? `/${path}/${group}`.replace('pages/', '') : ''}`,
+        link: `${needRoute ? route : ''}`,
         items: items,
         // collapsed: items.length < groupCollapsedSize || total > titleCollapsedSize,
         collapsed: total > titleCollapsedSize,

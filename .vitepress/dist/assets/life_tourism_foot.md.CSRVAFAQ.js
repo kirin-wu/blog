@@ -1,0 +1,2 @@
+import{_ as e,o,c as s,j as t}from"./chunks/framework.Dayh6OL6.js";const u=JSON.parse('{"title":"徒步","description":"","frontmatter":{"title":"徒步","description":"","date":"2024-05-28T07:48:42.000Z","tags":["tourism"]},"headers":[],"relativePath":"life/tourism/foot.md","filePath":"pages/life/tourism/foot/README.md"}'),a={name:"life/tourism/foot.md"},r=t("pre",null,[t("code",null,`徒步
+`)],-1),i=[r];function n(c,l,d,_,f,p){return o(),s("div",null,i)}const h=e(a,[["render",n]]);export{u as __pageData,h as default};

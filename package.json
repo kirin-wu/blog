@@ -7,6 +7,7 @@
     "dev": "vitepress dev",
     "docs:dev": "vitepress dev",
     "build": "vitepress build",
+    "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
     "deploy:aliyun:oss": "bash ./deploy/aliyun/deploy-oss.sh",
     "deploy:aliyun:ecs": "bash ./deploy/aliyun/deploy-ecs.sh"

@@ -25,8 +25,7 @@ export const nav = [
     activeMatch: '^/tool',
     items: [
       { text: '在线工具', link: '/tool/online' },
-      { text: '软件下载', link: '/tool/software' },
-      { text: '实用网站', link: '/tool/website' },
+      { text: '实用网站', link: '/tool/website/quick' },
       { text: 'MacOS', link: '/tool/mac' },
       { text: 'Vim', link: '/tool/vim' },
     ],

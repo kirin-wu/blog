@@ -1,2 +1,0 @@
-import{_ as e,c as o,o as s,j as t}from"./chunks/framework.CyBENvPl.js";const u=JSON.parse('{"title":"徒步","description":"","frontmatter":{"title":"徒步","description":"","date":"2024-05-28T07:48:42.000Z","tags":["tourism"]},"headers":[],"relativePath":"life/tourism/foot.md","filePath":"pages/life/tourism/foot/README.md"}'),a={name:"life/tourism/foot.md"},r=t("pre",null,[t("code",null,`徒步
-`)],-1),i=[r];function n(c,l,d,_,f,p){return s(),o("div",null,i)}const h=e(a,[["render",n]]);export{u as __pageData,h as default};

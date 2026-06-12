@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as r}from"./chunks/framework.Dayh6OL6.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{"showArticleMetadata":false},"headers":[],"relativePath":"programmer.md","filePath":"pages/programmer/index.md"}'),t={name:"programmer.md"};function o(s,n,c,m,p,d){return a(),r("div")}const f=e(t,[["render",o]]);export{_ as __pageData,f as default};
